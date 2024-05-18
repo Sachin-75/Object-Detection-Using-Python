@@ -4,6 +4,22 @@ This project implements an object detection system using the YOLOv3 pre-trained 
 ## Overview
 Object detection is a crucial computer vision task that involves both identifying the presence of objects in an image and precisely localizing them. This project is based on the YOLO (You Only Look Once) architecture, which allows for unified, real-time object detection. The core idea of YOLO is to predict bounding boxes and class probabilities for objects directly in one pass through the neural network.
 
+## Getting Started
+
+1. Clone this repository to your local machine using:
+   ```
+   git clone https://github.com/RaviVishwakarma11/Object-Detection.git
+   ```
+
+2. Download the YOLOv3 pre-trained weights (yolov3.weights) from [here](https://pjreddie.com/darknet/yolo/) and place it in the project directory.
+
+3. Install the required Python libraries that mention in data.py file code.
+
+4. Run the object detection script using:
+   ```
+   python data.py
+   ```
+
 ## Features
 - Real-time object detection using the YOLOv3 model.
 - Detection of multiple objects within an image or video stream.
